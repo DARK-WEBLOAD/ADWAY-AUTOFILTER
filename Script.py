@@ -65,6 +65,16 @@ class script(object):
   /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
 
   <b>example</b> : - /covid India"""
+    SONG_TXT ="""<b>SONG MODULE</b>
+Song Download
+Song Download Module, For Those Who Love Music
+
+🎈 Command
+
+- /song [Song Name] - To Download Music
+
+Usage
+- working pm and groups""" 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
