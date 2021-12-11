@@ -88,6 +88,10 @@ Do as you wish with telegra.ph module!
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
+    WHOIS_TXT ="""<b>WHOIS MODULE</b>
+Note:- Give a user details
+
+•/whois :-give a user full details"""
    CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
