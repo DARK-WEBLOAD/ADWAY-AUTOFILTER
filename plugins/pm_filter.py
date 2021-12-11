@@ -454,7 +454,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴇx ᴍᴏᴅs', callback_data='extra'),
             InlineKeyboardButton('ᴄᴏʀᴏɴᴀ ', callback_data='corona')
             ],[
-            InlineKeyboardButton('sᴏɴɢ ', callback_data='song'),
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ ', callback_data='tgraph'),
             InlineKeyboardButton('ᴡʜᴏɪs ', callback_data='whois')
             ],[
@@ -539,16 +538,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CORONA_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
-    elif query.data == "song":
-        buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.SONG_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
