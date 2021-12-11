@@ -75,7 +75,20 @@ Song Download Module, For Those Who Love Music
 
 Usage
 - working pm and groups""" 
-    CONNECTION_TXT = """Help: <b>Connections</b>
+
+    TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
+
+Do as you wish with telegra.ph module!
+
+<b>Commands and Usage:</b>
+• /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
+
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
+   CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
