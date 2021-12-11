@@ -65,17 +65,7 @@ class script(object):
   /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
 
   <b>example</b> : - /covid India"""
-    SONG_TXT ="""<b>SONG MODULE</b>
-Song Download
-Song Download Module, For Those Who Love Music
-
-🎈 Command
-
-- /song [Song Name] - To Download Music
-
-Usage
-- working pm and groups""" 
-
+     
     TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
 
 Do as you wish with telegra.ph module!
